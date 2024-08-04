@@ -17,3 +17,5 @@ jobs:
         run: echo Hello, world!
       - name: Close this test script
         run: echo bye bye, world!
+      - name: test push event 
+        run: echo push event
