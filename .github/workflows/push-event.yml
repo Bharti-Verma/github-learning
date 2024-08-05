@@ -32,7 +32,7 @@ jobs:
     steps:
       - name: Run a one-line script
         run: |
-        echo "String: ${{ inputs.string }}"
+          echo "String: ${{ inputs.string }}"
 
       - name: Run a closing script
         run: echo bye bye, world!
