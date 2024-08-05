@@ -1,0 +1,9 @@
+name: manual workflow test
+on:
+  workflow-dispatch:
+
+jobs:
+  testing-manual-workflow:
+    runs-on: windows-latest
+    steps:
+      -run: echo Hello, world!
