@@ -1,6 +1,5 @@
 name: manual-workflow-trigger
-on:
-  push: [main]
+on: workflow_dispatch
 jobs:
   # This workflow contains a single job called "build"
   build:
