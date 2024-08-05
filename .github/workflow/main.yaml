@@ -1,4 +1,4 @@
-name: manual-workflow-trigger
+name: new workflow
 on: [push]
 jobs:
   # This workflow contains a single job called "build"
