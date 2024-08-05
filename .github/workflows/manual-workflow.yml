@@ -1,6 +1,6 @@
 name: manual workflow test
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   testing-manual-workflow:
