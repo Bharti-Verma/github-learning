@@ -34,7 +34,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-     - run: |
+      - run: |
         echo "String: ${{ inputs.string }}"
       - name: Run a closing script
         run: echo bye bye, world!
