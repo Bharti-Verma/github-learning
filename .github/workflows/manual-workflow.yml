@@ -1,9 +1,9 @@
-name: manual workflow test
+name: Manually Triggered
 on:
   workflow_dispatch:
 
 jobs:
-  testing-manual-workflow:
-    runs-on: windows-latest
+  log-info:
+    runs-on: ubuntu-latest
     steps:
-      -run: echo Hello, world!
+      - run: echo $GITHUB_REF
