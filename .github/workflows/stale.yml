@@ -1,14 +1,13 @@
 name: Stale Issues & PRs
 on:
   schedule:
-    - cron: "0 14 * * *"
-    - cron: "13/5 * * * *" # JUST FOR TESTING
+    - cron:  '06 13,17 * * *'
 
 jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v8
+      - uses: Bharti-Verma/github-learninge@v8
         with:
           stale-issue-message: "This is some message."
           days-before-stale: 1
